@@ -183,6 +183,9 @@ def get_regions_pods(ms_url: str, username: str, password: str) -> Dict[str, str
     return region_pod_map
 
 
+requests.get("https://google.com", verify=False)
+
+
 def main():  # pragma: no cover
     """Main function"""
     parser = argparse.ArgumentParser(
